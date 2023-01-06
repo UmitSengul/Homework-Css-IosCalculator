@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#maindiv {
+  display: flex;
+  height: 90vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#divcalculator {
+  display: grid;
+  grid-template-areas:
+    "ekran ekran ekran ekran"
+    "ac tolerans yuzde bolme"
+    "yedi sekiz dokuz carpi"
+    "dort bes alti eksi"
+    "bir iki uc arti"
+    "sifir sifir nokta esittir";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+  border: 5px solid red;
+  height: 660px;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 80px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  grid-gap: 8px;
+  padding: 15px;
+  font-size: 2rem;
+}
+
+#divcalculator p {
+  display: grid; /* new */
+  align-items: center; /* new */
+  justify-items: center; /* new */
+  border-radius: 100%;
+}
+#ekran {
+
+  grid-area: ekran;
+
+  display: grid; /* new */
+  align-items: center; /* new */
+  justify-items: center; /* new */
+  text-align: end;
+  font-size: 4rem;
+  background-color: black;
+  margin-bottom: 10px;
+  border-style: none;
+}
+
+#bir {
+  grid-area: bir;
+  background-color: rgb(51, 51, 51);
+}
+#iki {
+  grid-area: iki;
+  background-color: rgb(51, 51, 51);
+}
+#uc {
+  grid-area: uc;
+  background-color: rgb(51, 51, 51);
+}
+#dort {
+  grid-area: dort;
+  background-color: rgb(51, 51, 51);
+}
+#bes {
+  grid-area: bes;
+  background-color: rgb(51, 51, 51);
+}
+#alti {
+  grid-area: alti;
+  background-color: rgb(51, 51, 51);
+}
+#yedi {
+  grid-area: yedi;
+  background-color: rgb(51, 51, 51);
+}
+#sekiz {
+  grid-area: sekiz;
+  background-color: rgb(51, 51, 51);
+}
+#dokuz {
+  grid-area: dokuz;
+  background-color: rgb(51, 51, 51);
+}
+#sifir {
+  grid-area: sifir;
+  background-color: rgb(51, 51, 51);
+  border-radius: 40px !important;
+}
+#arti {
+  grid-area: arti;
+  background-color: #F1A33C;
+}
+#eksi {
+  grid-area: eksi;
+  background-color: #F1A33C;
+}
+#carpi {
+  grid-area: carpi;
+  background-color: #F1A33C;
+}
+#esittir {
+  grid-area: esittir;
+  background-color: rgb(51, 51, 51);
+}
+#yuzde {
+  grid-area: yuzde;
+  background-color: rgb(165, 165, 165);
+}
+#tolerans {
+  grid-area: tolerans;
+  background-color: rgb(165, 165, 165);
+}
+#ac {
+  grid-area: ac;
+  background-color: rgb(165, 165, 165);
+}
+#bolme {
+  grid-area: bolme;
+  background-color: #F1A33C;
+}
+#nokta {
+  grid-area: nokta;
+  background-color: rgb(51, 51, 51);
+}
+#divcalculator *:hover{
+    opacity: 50%;
+}
