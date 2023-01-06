@@ -3,4 +3,5 @@
 Font değiştirilmeli
 Border kalkmalı.
 
-Grid area kullanıldı. her area için özellikler verildi. Grid hücre içeriğini flex olmadan ortalamak üç saatimi aldı.
+Grid area kullanıldı. her area için özellikler verildi. Daha az kodla da yazılabilir ama ben biraz uğraşmak istedim. her hücre için ayrı ayrı yazdım.
+tuş sırasına göre taglar tanımlanırsa daha az kod yazılır. 
